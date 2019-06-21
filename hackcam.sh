@@ -47,7 +47,7 @@ exit 1
 dependencies() {
 
 
-command -v php > /dev/null 2>&1 || { echo >&2 "Lu Belom Install php Ya Njing! Install pkg install php"; exit 1; }
+command -v php > /dev/null 2>&1 || { echo >&2 "Lu Belom Install ssh Ya Njing! Install pkg install openssh"; exit 1; }
 
 
 }
@@ -92,7 +92,7 @@ done
 
 server() {
 
-command -v ssh > /dev/null 2>&1 || { echo >&2 "Lu Belom Install ssh Njing! Install pkg install bash"; exit 1; }
+command -v ssh > /dev/null 2>&1 || { echo >&2 "Lu Belom Install bash Njing! Install pkg install bash"; exit 1; }
 
 printf "\e[1;77m[\e[0m\e[1;93m+\e[0m\e[1;77m] Menghubungkan Serveo Su...\e[0m\n"
 
